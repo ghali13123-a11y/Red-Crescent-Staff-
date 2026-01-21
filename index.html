@@ -53,7 +53,7 @@
     </header>
 
     <!-- Main Content Area -->
-    <main class="flex-grow container mx-auto px-4 py-6 flex flex-col items-center">
+    <main class="flex-grow container mx-auto px-4 py-6 flex flex-col items-center pb-20">
         
         <!-- TITLE SECTION -->
         <div id="pageHeader" class="text-center mb-8 w-full max-w-2xl">
@@ -65,10 +65,10 @@
 
         <!-- SECTORS GRID (Main View) -->
         <div id="sectorsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-3xl fade-in">
-            <!-- 1. Mataf (تم تغيير الأيقونة هنا لتكون كعبة واضحة) -->
+            <!-- 1. Mataf (تم توحيد اللون إلى الأحمر) -->
             <div onclick="openSector('mataf')" class="card-hover bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col items-center text-center cursor-pointer relative overflow-hidden group">
-                <div class="absolute top-0 left-0 w-full h-1 bg-yellow-500"></div>
-                <div class="bg-yellow-50 p-3 rounded-full mb-3 text-yellow-600 group-hover:bg-yellow-100 transition">
+                <div class="absolute top-0 left-0 w-full h-1 bg-red-600"></div>
+                <div class="bg-red-50 p-3 rounded-full mb-3 text-red-600 group-hover:bg-red-100 transition">
                     <!-- أيقونة الكعبة المشرفة الجديدة -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <!-- قاعدة الكعبة -->
@@ -137,7 +137,8 @@
         </div>
     </div>
 
-    
+    <!-- No Footer Here -->
+
     <script>
     // Image Modal Functions
     function openImageModal(src) {
